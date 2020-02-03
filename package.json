@@ -1,0 +1,26 @@
+{
+  "name": "bimcat_react",
+  "version": "1.0.0",
+  "description": "BIM轻量化的前端，采用React技术。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "umi dev",
+    "build": "umi build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niuge8905/bimcat_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niuge8905/bimcat_react/issues"
+  },
+  "homepage": "https://github.com/niuge8905/bimcat_react#readme",
+  "devDependencies": {
+    "umi": "^2.13.3",
+    "umi-plugin-react": "^1.15.2"
+  }
+}
