@@ -12,18 +12,26 @@ export default {
         routes: [
           {
             path: '/',
-            component: 'Helloworld',
+            component: 'index',
           },
           {
-            path: '/helloworld',
-            component: 'Helloworld'
+            path: '/index',
+            component: 'index'
           },
           {
-            path: '/dashboard',
+            path: '/workspace',
             routes: [
-              { path: '/dashboard/analysis', component: 'Dashboard/Analysis' },
-              { path: '/dashboard/monitor', component: 'Dashboard/Monitor' },
-              { path: '/dashboard/workplace', component: 'Dashboard/Workplace' }
+              { path: '/workspace/managemodel', component: 'Workspace/ManageModel' },
+              { path: '/workspace/managework', component: 'Workspace/ManageWork' },
+              { path: '/workspace/manageprocess', component: 'Workspace/ManageProcess' }
+            ]
+          },
+          {
+            path: '/system',
+            routes: [
+              { path: '/system/user', component: 'System/User' },
+              { path: '/system/role', component: 'System/Role' },
+              { path: '/system/log', component: 'System/Log' }
             ]
           },
         ]

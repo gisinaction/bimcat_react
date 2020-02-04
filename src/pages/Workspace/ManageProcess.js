@@ -1,4 +1,4 @@
 // Workplace.js
 export default () => {
-    return <h1>Workplace Page</h1>
+    return <h1>流程管理</h1>
   };

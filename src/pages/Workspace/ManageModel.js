@@ -1,4 +1,4 @@
 // Analysis.js
 export default () => {
-    return <h1>Analysis Page</h1>
+    return <h1>模型管理</h1>
  }
