@@ -43,12 +43,12 @@ export default class BasicLayout extends Component {
         </Sider>
         <Layout >
           <Header style={{ background: '#fff', textAlign: 'center', padding: 0 }}>BIMCAT</Header>
-          <Content style={{ margin: '24px 16px 0' }}>
-            <div style={{ padding: 24, background: '#fff', height: "100%" }}>
+          <Content style={{ margin: '10px' }}>
+            <div style={{ background:"#fff", height: "100%" }}>
               {this.props.children}
             </div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>BIMCAT ©2020 Created by niuge8905</Footer>
+          {/* <Footer style={{ textAlign: 'center' }}>BIMCAT ©2020 Created by niuge8905</Footer> */}
         </Layout>
       </Layout>
     )

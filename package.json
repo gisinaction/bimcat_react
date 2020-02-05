@@ -20,7 +20,13 @@
   },
   "homepage": "https://github.com/niuge8905/bimcat_react#readme",
   "devDependencies": {
+    "html-loader": "^0.5.5",
+    "jquery": "^3.4.1",
+    "three": "^0.113.2",
     "umi": "^2.13.3",
     "umi-plugin-react": "^1.15.2"
+  },
+  "dependencies": {
+    "three-orbitcontrols-ts": "^0.1.2"
   }
 }
